@@ -1,0 +1,24 @@
+{
+  "name": "node-bono-norm-firstproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nodemon"
+  },
+  "keywords": [],
+  "author": "sony",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "bcrypt": "^5.0.0",
+    "bono": "^1.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "node-norm": "^1.4.5",
+    "node-norm-mysql": "^1.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
